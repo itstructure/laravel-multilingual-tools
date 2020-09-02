@@ -1,0 +1,31 @@
+{
+    "name": "itstructure/laravel-multilingual-tools",
+    "description": "Laravel package for multilingual content manage",
+    "type": "library",
+    "keywords": ["laravel", "multilingual", "language"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Girnik",
+            "email": "girnikandrey@gmail.com",
+            "homepage": "https://github.com/itstructure",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "laravel/framework": "^7.0",
+        "php": ">=7.2.5"
+    },
+    "classmap": [
+        "database/migrations",
+        "database/seeds",
+        "src/Models"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Itstructure\\Mult\\": "src"
+        }
+    }
+}
