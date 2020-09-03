@@ -2,7 +2,6 @@
 
 namespace Itstructure\Mult;
 
-use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 use Itstructure\Mult\Commands\{PublishCommand, DatabaseCommand};
 

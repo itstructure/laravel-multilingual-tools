@@ -36,7 +36,7 @@ All multilingual fields will be with a language postfix, as in example:
 
 Run the composer command:
 
-`composer require itstructure/laravel-multilingual-tools "~1.0.0"`
+`composer require itstructure/laravel-multilingual-tools "~1.0.1"`
 
 ### 3.2 If you are testing this package from local server directory
 

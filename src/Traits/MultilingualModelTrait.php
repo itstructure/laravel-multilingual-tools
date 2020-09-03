@@ -14,6 +14,7 @@ use Itstructure\Mult\Models\Language;
  *
  * @method HasMany hasMany($related, $foreignKey = null, $localKey = null)
  * @method HasOne hasOne($related, $foreignKey = null, $localKey = null)
+ * @method bool isFillable($key)
  *
  * @package Itstructure\Mult\Traits
  *

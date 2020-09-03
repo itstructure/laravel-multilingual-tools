@@ -61,7 +61,6 @@ class DatabaseCommand extends Command
                     default:
                         $this->error('Invalid "only" argument value!');
                         return;
-                        break;
                 }
 
             } else {
