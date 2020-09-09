@@ -1,9 +1,13 @@
 <?php
+namespace Database\Seeders;
 
+use DB;
 use Illuminate\Database\Seeder;
 
 /**
  * Class MultSeeder
+ *
+ * @package Database\Seeders
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

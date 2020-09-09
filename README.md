@@ -26,19 +26,23 @@ All multilingual fields will be with a language postfix, as in example:
 
 ## 2 Dependencies
 
-- laravel 7
-- php >= 7.2.5
+- laravel 8+
+- php >= 7.3
 - composer
 
 ## 3 Installation
 
-**Note:** Version **1.x** is for laravel **7**.
+**Note!**
+
+Version **2.x** is for laravel **8**.
+
+Version **1.x** is for laravel **7**. You can use branch `laravel7-mult` with **1.x** versions.
 
 ### 3.1 General installation from remote repository
 
 Run the composer command:
 
-`composer require itstructure/laravel-multilingual-tools "~1.0.2"`
+`composer require itstructure/laravel-multilingual-tools "~2.0.0"`
 
 ### 3.2 If you are testing this package from local server directory
 
@@ -81,9 +85,9 @@ Itstructure\Mult\MultServiceProvider::class,
         
     - To publish seeder run command:
             
-        `php artisan mult:publish --only=seeds`
+        `php artisan mult:publish --only=seeders`
         
-        It stores seeder files to `database/seeds` folder. There is a seeder to create a first **English** language DB entry as a default.
+        It stores seeder files to `database/seeders` folder. There is a seeder to create a first **English** language DB entry as a default.
         
     - To publish all parts run command without `only` argument:
     

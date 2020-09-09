@@ -15,12 +15,12 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "laravel/framework": "^7.0",
-        "php": ">=7.2.5"
+        "laravel/framework": "^8.0",
+        "php": ">=7.3.0"
     },
     "classmap": [
         "database/migrations",
-        "database/seeds",
+        "database/seeders",
         "src/Models"
     ],
     "autoload": {

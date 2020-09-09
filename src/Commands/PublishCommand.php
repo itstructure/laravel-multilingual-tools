@@ -21,7 +21,7 @@ class PublishCommand extends Command
      */
     protected $signature = 'mult:publish '.
     '{--force : Overwrite existing files by default. This option can not be used.}'.
-    '{--only= : Publish only specific part. Available parts: migrations, seeds. This option can not be used.}';
+    '{--only= : Publish only specific part. Available parts: migrations, seeders. This option can not be used.}';
 
     /**
      * The console command description.
@@ -46,9 +46,9 @@ class PublishCommand extends Command
                     $callArguments['--tag'] = 'migrations';
                     break;
 
-                case 'seeds':
-                    $this->info('Publish just a part: seeds.');
-                    $callArguments['--tag'] = 'seeds';
+                case 'seeders':
+                    $this->info('Publish just a part: seeders.');
+                    $callArguments['--tag'] = 'seeders';
                     break;
 
                 default:
@@ -57,7 +57,7 @@ class PublishCommand extends Command
             }
 
         } else {
-            $this->info('Publish all parts: migrations, seeds.');
+            $this->info('Publish all parts: migrations, seeders.');
         }
 
         if ($this->option('force')) {

@@ -26,7 +26,7 @@ class MultServiceProvider extends ServiceProvider
 
         // Publish settings
         $this->publishMigrations();
-        $this->publishSeeds();
+        $this->publishSeeders();
     }
 
 
@@ -84,11 +84,11 @@ class MultServiceProvider extends ServiceProvider
      * Publish seeds.
      * @return void
      */
-    private function publishSeeds(): void
+    private function publishSeeders(): void
     {
         $this->publishes([
-            $this->packagePath('database/seeds') => database_path('seeds'),
-        ], 'seeds');
+            $this->packagePath('database/seeders') => database_path('seeders'),
+        ], 'seeders');
     }
 
 
