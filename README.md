@@ -42,7 +42,7 @@ Version **1.x** is for laravel **7**. You can use branch `laravel7-mult` with **
 
 Run the composer command:
 
-`composer require itstructure/laravel-multilingual-tools "~2.0.0"`
+`composer require itstructure/laravel-multilingual-tools "~2.0.1"`
 
 ### 3.2 If you are testing this package from local server directory
 
@@ -494,6 +494,6 @@ Short example for `page.create` blade view template:
 
 ## License
 
-Copyright © 2020 Andrey Girnik girnikandrey@gmail.com.
+Copyright © 2020-2021 Andrey Girnik girnikandrey@gmail.com.
 
 Licensed under the [MIT license](http://opensource.org/licenses/MIT). See LICENSE.txt for details.
