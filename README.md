@@ -42,7 +42,7 @@ Version **1.x** is for laravel **7**. You can use branch `laravel7-mult` with **
 
 Run the composer command:
 
-`composer require itstructure/laravel-multilingual-tools "~2.0.1"`
+`composer require itstructure/laravel-multilingual-tools "~2.0.2"`
 
 ### 3.2 If you are testing this package from local server directory
 
