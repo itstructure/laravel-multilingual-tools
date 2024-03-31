@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "laravel/framework": "^8.0|^9.0",
+        "laravel/framework": "^8.0|^9.0|^10.0|^11.0",
         "php": ">=7.3.0"
     },
     "classmap": [
@@ -26,6 +26,13 @@
     "autoload": {
         "psr-4": {
             "Itstructure\\Mult\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Itstructure\\Mult\\MultServiceProvider"
+            ]
         }
     }
 }
