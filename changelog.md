@@ -1,5 +1,8 @@
 ### CHANGE LOG:
 
+**2.0.6 March 2, 2025**
+- Add support for Laravel 12
+
 **2.0.5 March 31, 2024**
 - Add support for Laravel 10 and 11
 
