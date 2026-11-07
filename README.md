@@ -26,7 +26,7 @@ All multilingual fields will be with a language postfix, as in example:
 
 ## 2 Dependencies
 
-- laravel 8+ | 9+ | 10+ | 11+ | 12+
+- laravel 8+ | 9+ | 10+ | 11+ | 12+ | 13+
 - php >= 7.3
 - composer
 
@@ -34,7 +34,7 @@ All multilingual fields will be with a language postfix, as in example:
 
 **Note!**
 
-Version **2.x** is for laravel **8**, **9**, **10**, **11**, **12**.
+Version **2.x** is for laravel **8**, **9**, **10**, **11**, **12**, **13**.
 
 Version **1.x** is for laravel **7**. You can use branch `laravel7-mult` with **1.x** versions.
 
@@ -42,7 +42,7 @@ Version **1.x** is for laravel **7**. You can use branch `laravel7-mult` with **
 
 Run the composer command:
 
-`composer require itstructure/laravel-multilingual-tools "~2.0.6"`
+`composer require itstructure/laravel-multilingual-tools "~2.0.7"`
 
 ### 3.2 If you are testing this package from local server directory
 
@@ -486,6 +486,6 @@ Short example for `page.create` blade view template:
 
 ## License
 
-Copyright © 2020-2025 Andrey Girnik girnikandrey@gmail.com.
+Copyright © 2020-2026 Andrey Girnik girnikandrey@gmail.com.
 
 Licensed under the [MIT license](http://opensource.org/licenses/MIT). See LICENSE.txt for details.

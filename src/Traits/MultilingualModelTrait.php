@@ -132,7 +132,7 @@ trait MultilingualModelTrait
      * @param string $ifNotExistsValue
      * @return string
      */
-    public function defaultTranslate(string $field = null, string $ifNotExistsValue = '-')
+    public function defaultTranslate(?string $field = null, string $ifNotExistsValue = '-')
     {
         /* @var Model $this */
         $mainRequest = $this->hasOne(static::translateModelClass(), $this->keyToMainModel(), MultilingualMigration::PRIMARY_KEY_NAME);
